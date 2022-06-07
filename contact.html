@@ -138,14 +138,15 @@
                                     
                                     <!-- Contact form -->
                                     <div class="col-sm-6">
-                                    <form role="form" name="ajax-form" id="ajax-form" action="https://formsubmit.io/send/32ecdede-3027-47a5-b291-e8380d9a5d3f" method="post" class="form-main">
-                                        <!-- <input name="_redirect" type="hidden" id="name" value="cover.html"> -->
-                                        <script>
+                                    <form href="cover.html" role="form" name="ajax-form" id="ajax-form" action="https://formsubmit.io/send/32ecdede-3027-47a5-b291-e8380d9a5d3f" method="post" class="form-main">
+                                        <!-- <input name="_redirect" type="hidden" id="name3" value="cover.html"> -->
+                                        <!-- <input type="hidden" name="_next" value="cover.html"> -->
+                                        <!-- <script>
                                             function success() {
                                                 window.open("cover.html");
                                             }
                                             
-                                        </script>
+                                        </script> -->
                                         <div class="form-group">
                                         <label for="name2"></label>
                                         <input class="form-control" id="name2" name="name" onblur="if(this.value == '') this.value='Name'" onfocus="if(this.value == 'Name') this.value=''" type="text" value="">
@@ -173,7 +174,7 @@
                                             <div class="error" id="err-form" style="display: none;">Hay un problema en uno de los campos del formulario.</div>
                                             <div class="error" id="err-timedout">El tiempo de conexión con el servidor ha caducado.</div>
                                             <div class="error" id="err-state"></div>
-                                            <button type="submit" class="btn btn-primary btn-shadow btn-rounded w-md" id="send" onclick="success()">Enviar</button>
+                                            <button type="submit" class="btn btn-primary btn-shadow btn-rounded w-md" id="send" >Enviar</button>
                                         </div> <!-- /col -->
                                         </div> <!-- /row -->
                                         
