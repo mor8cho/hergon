@@ -139,41 +139,42 @@
                                     <!-- Contact form -->
                                     <div class="col-sm-6">
                                     <form role="form" name="ajax-form" id="ajax-form" action="https://formsubmit.io/send/32ecdede-3027-47a5-b291-e8380d9a5d3f" method="post" class="form-main">
-                                        <input name="_redirect" type="hidden" id="name" value="https://hergontech.com">
+                                        <input name="_redirect" type="hidden" id="name" value="thanks.html">
                                         <!-- <input type="hidden" name="_next" value="cover.html"> -->
-                                        <!-- <script>
+                                        <script>
                                             function success() {
                                                 window.open("cover.html");
                                             }
                                             
-                                        </script> -->
+                                        </script>
                                         <div class="form-group">
                                         <label for="name2"></label>
-                                        <input class="form-control" id="name2" name="name" onblur="if(this.value == '') this.value='Name'" onfocus="if(this.value == 'Name') this.value=''" type="text" value="">
+                                        <input class="form-control" id="name2" name="name" onblur="if(this.value == '') this.value='Name'" onfocus="if(this.value == 'Name') this.value=''" type="text" value="" required="required">
                                         <div class="error" id="err-name" style="display: none;">Please enter name</div>
                                         </div> <!-- /Form-name -->
                                         
                                         <div class="form-group">
                                         <label for="email2"></label>
-                                        <input class="form-control" id="email2" name="email" type="text" onfocus="if(this.value == 'E-mail') this.value='';" onblur="if(this.value == '') this.value='E-mail';" value="E-mail">
+                                        <input class="form-control" id="email2" name="email" type="text" onfocus="if(this.value == 'E-mail') this.value='';" onblur="if(this.value == '') this.value='E-mail';" value="E-mail" required="required">
                                         <div class="error" id="err-emailvld" style="display: none;">E-mail is not a valid format</div> 
                                         </div> <!-- /Form-email -->
                                         
                                         <div class="form-group">
                                         <label for="message2"></label>
-                                        <textarea class="form-control" id="message2" name="message" rows="5" onblur="if(this.value == '') this.value='Message'" onfocus="if(this.value == 'Mensage') this.value=''"></textarea>
+                                        <textarea class="form-control" id="message2" name="message" rows="5" onblur="if(this.value == '') this.value='Message'" onfocus="if(this.value == 'Mensage') this.value=''" required="required"></textarea>
                                         
                                         <div class="error" id="err-message" style="display: none;">Please enter message</div>
                                         </div> <!-- /col -->
                                         
                                         <div class="row">            
                                         <div class="col-xs-12">
-                                            <div id="ajaxsuccess" class="text-success">Enviado exitosamente.
+                                            <div id="ajaxsuccess" class="text-success" style="display: none;">Enviado exitosamente.
                                             </div>
                                             <div class="error" id="err-form" style="display: none;">Hay un problema en uno de los campos del formulario.</div>
-                                            <div class="error" id="err-timedout">El tiempo de conexión con el servidor ha caducado.</div>
+                                            <div class="error" id="err-timedout" style="display: none;">El tiempo de conexión con el servidor ha caducado.</div>
+                                            <p></p>
                                             <div class="error" id="err-state"></div>
-                                            <button type="submit" class="btn btn-primary btn-shadow btn-rounded w-md" id="send" onclick="window.open.href = 'cover.html';">Enviar</button>
+                                            <button type="submit" class="btn btn-primary btn-shadow btn-rounded w-md" id="send">Enviar</button>
                                         </div> <!-- /col -->
                                         </div> <!-- /row -->
                                         
