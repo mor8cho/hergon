@@ -106,6 +106,11 @@
                     </div>
                 </div>
             </section>
+            <script>
+                function sendEmail() {
+                window.location = "mailto:contacto@hergontech.com?subject=Suscripcion&body=Quiero suscribirme a sus boletines";
+                }
+            </script>
             <!-- Testimonial section-->
             <!-- <div class="py-5 bg-light">
                 <div class="container px-5 my-5">
@@ -212,10 +217,11 @@
                             <div class="ms-xl-4">
                                 <div class="input-group mb-2">
                                     <input class="form-control" type="text" placeholder="Email address..." aria-label="Email address..." aria-describedby="button-newsletter" />
-                                    <button class="btn btn-outline-light" id="button-newsletter" type="button">Sign up</button>
+                                    <button class="btn btn-outline-light" id="button-newsletter" type="button" onclick="sendEmail()">Sign up</button>
                                 </div>
+                                
                                 <div class="small text-white-50">Nos preocupamos por tu privacidad, nunca compartiremos tus datos.</div>
-                                <a class="small text-white-50" href="mailto:hergontech@outlook.com">Enviar correo</a>
+                                
                             </div>
                         </div>
                     </aside>
@@ -233,7 +239,7 @@
                         <span class="text-white mx-1">&middot;</span>
                         <a class="link-light small" href="#!">Terms</a>
                         <span class="text-white mx-1">&middot;</span>
-                        <a class="link-light small" href="#!">Contact</a>
+                        <a class="link-light small" href="contact.html">Contact</a>
                     </div>
                 </div>
             </div>
