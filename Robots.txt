@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /nogooglebot/
+Disallow: /portfolio-item.html
+Disallow: /portfolio-overview.html
+Disallow: /blog-home.html
+Disallow: /blog-post.html
+Disallow: /about.html
+
+Sitemap: http://www.hergontech.com/sitemap.xml
