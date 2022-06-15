@@ -21,30 +21,7 @@
         <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet"> -->
     </head>
     <body class="d-flex flex-column h-100">
-        <script>
-            window.fbAsyncInit = function() {
-              FB.init({
-                appId            : '103787661037478', // REPLACE IF YOU WANT TO USE YOUR OWN FB APP
-                autoLogAppEvents : true,
-                xfbml            : true,
-                version          : 'v2.11'
-              });
-            };
-          
-            (function(d, s, id){
-               var js, fjs = d.getElementsByTagName(s)[0];
-               if (d.getElementById(id)) {return;}
-               js = d.createElement(s); js.id = id;
-               js.src = "https://connect.facebook.net/en_US/sdk.js";
-               fjs.parentNode.insertBefore(js, fjs);
-             }(document, 'script', 'facebook-jssdk'));
-          </script>
         <main class="flex-shrink-0">
-            <div class="fb-customerchat"
- page_id="103787661037478"
- ref="<OPTIONAL_WEBHOOK_PARAM>"
- minimized="false">
-</div>
             <script>
                 var dt = new Date();
                 document.getElementById('date-time').innerHTML=dt;
