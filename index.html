@@ -21,6 +21,37 @@
         <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet"> -->
     </head>
     <body class="d-flex flex-column h-100">
+        <!-- Messenger Plugin de chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin de chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "103787661037478");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v14.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!-- End facebook chat -->
         <main class="flex-shrink-0">
             <script>
                 var dt = new Date();
@@ -64,23 +95,26 @@
                         <div class="col-lg-8 col-xl-7 col-xxl-6">
                             <div class="my-5 text-center text-xl-start">
                                 <h1 class="display-5 fw-bolder text-white mb-2">Soporte tecnico a medida</h1>
-                                <p class="lead fw-normal text-white-50 mb-4">Mantenimiento preventivo y correctivo de PC y Portátiles, redes LAN e Inalámbricas en Costa Rica</p>
+                                <h2 class="lead fw-normal text-white-50 mb-4">Mantenimiento preventivo y correctivo de PC y Portátiles, redes LAN e Inalámbricas en Costa Rica</h2>
                                 <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
                                     <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Empezemos</a>
                                     <a class="btn btn-outline-light btn-lg px-4" href=pricing.html>Servicios</a>
+                                    
+                                </div>
+                                <p> </p>
+                                <div class="btn-group text-center" role="group" aria-label="Basic example">
+                                    <button onclick=" window.open('https://api.whatsapp.com/send?phone=50671469602','_blank')" type="button" class="btn btn-success text-white"><i class="bi bi-whatsapp" aria-hidden="true"></i> WHATSAPP</button>
+                                    <button onclick=" window.open('https://www.facebook.com/Hergontech/','_blank')" type="button" class="btn btn-primary text-white"><i class="bi bi-facebook" aria-hidden="true"></i> FACEBOOK</button>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-left">
-                            <figure>
+                            
                                 <img class="img-fluid rounded-3 my-1" src="img/main_front.png" alt="..." />
-                            </figure>
-                        <figcaption>
-                            <div class="btn-group" role="group" aria-label="Basic example">
-                            <button onclick=" window.open('https://api.whatsapp.com/send?phone=50671469602','_blank')" type="button" class="btn btn-success text-white"><i class="bi bi-whatsapp" aria-hidden="true"></i> WHATSAPP</button>
-                            <button onclick=" window.open('https://www.facebook.com/Hergontech/','_blank')" type="button" class="btn btn-primary text-white"><i class="bi bi-facebook" aria-hidden="true"></i> FACEBOOK</button>
-                        </div>
-                        </figcaption>
+                            
+                        
+                        
+                        
                         
                     </div>
                     </div>
@@ -239,6 +273,7 @@
                     </aside>
                 </div>
             </section>
+            
         </main>
         <!-- Footer-->
         <footer class="bg-dark py-4 mt-auto">
@@ -268,35 +303,5 @@
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>
-    <!-- Messenger Plugin de chat Code -->
-<div id="fb-root"></div>
 
-<!-- Your Plugin de chat code -->
-<div id="fb-customer-chat" class="fb-customerchat">
-</div>
-
-<script>
-var chatbox = document.getElementById('fb-customer-chat');
-chatbox.setAttribute("page_id", "103787661037478");
-chatbox.setAttribute("attribution", "biz_inbox");
-</script>
-
-<!-- Your SDK code -->
-<script>
-window.fbAsyncInit = function() {
-    FB.init({
-    xfbml            : true,
-    version          : 'v14.0'
-    });
-};
-
-(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
-    fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
-</script>
-    <!-- End facebook chat -->
 </html>
