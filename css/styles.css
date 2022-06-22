@@ -3003,6 +3003,7 @@ textarea.form-control-lg {
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
+  margin-left: 12px;
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
