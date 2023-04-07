@@ -26,8 +26,7 @@
     <body class="d-flex flex-column h-100">
         <main class="flex-shrink-0">
             <script>
-                var dt = new Date();
-                document.getElementById('date-time').innerHTML=dt;
+                document.getElementById('date-time').innerHTML=Date();
             </script>
             <!-- Navigation-->
             <nav class="navbar py-0 navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -85,7 +84,17 @@
                         <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-left">
                             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner rounded-3">
-                                <div class="carousel-item active" data-bs-interval="7000">
+                                    <div class="carousel-item active" data-bs-interval="1000">
+                                        <img src="img/instalacion-camaras-videovigilancia.png" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <shdow>
+                                            <h5>Cámaras de Seguridad</h5>
+                                            <p>Proteje lo mas preciado</p>
+                                            </shdow>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="1000">
                                     <img src="img/main_front.png" class="d-block w-100" alt="...">
                                     <div class="carousel-caption d-none d-md-block">
                                         <shdow>
@@ -94,7 +103,7 @@
                                         </shdow>
                                     </div>
                                 </div>
-                                <div class="carousel-item" data-bs-interval="5000">
+                                <div class="carousel-item" data-bs-interval="1000">
                                     <img src="img/main_front2.png" class="d-block w-100" alt="...">
                                     <div class="carousel-caption d-none d-md-block" >
                                         <shdow> 
@@ -103,7 +112,7 @@
                                         </shdow>
                                     </div>
                                 </div>
-                                <div class="carousel-item" data-bs-interval="5000">
+                                <div class="carousel-item" data-bs-interval="1000">
                                     <img src="img/main_front3.png" class="d-block w-100" alt="...">
                                     <div class="carousel-caption d-none d-md-block">
                                         <shdow>
@@ -111,7 +120,6 @@
                                         <p>Consigue las licencias de los programas que más usas.</p>
                                         </shdow>
                                     </div>
-                                </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -122,9 +130,7 @@
                                 <span class="visually-hidden">Next</span>
                                 </button>
                             </div>
-                                <!-- <img class="img-fluid rounded-3 my-1" src="img/main_front.png" alt="..." /> -->
-                            
-                    </div>
+                        </div>        
                     </div>
                 </div>
                     
