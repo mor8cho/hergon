@@ -5,5 +5,6 @@ Disallow: /portfolio-overview.html
 Disallow: /blog-home.html
 Disallow: /blog-post.html
 Disallow: /about.html
+Disallow: /faq.html
 
 Sitemap: http://www.hergontech.com/sitemap.xml
