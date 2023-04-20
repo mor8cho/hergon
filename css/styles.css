@@ -11762,6 +11762,7 @@ body {
 .asb {
   color: #fafafa;
   font-size: 2rem;
+  font-weight: bold;
   text-decoration: none;
   transition: all 0.3s;
 }
