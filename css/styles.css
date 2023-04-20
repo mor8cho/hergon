@@ -11758,15 +11758,15 @@ body {
   font-family: 'Poppins', sans-serif;
   background: #fafafa;
 }
-/*
+
 a,
 a:hover,
 a:focus {
-  color: inherit;
+  color: #fff;
   text-decoration: none;
   transition: all 0.3s;
 }
-*/
+
 .navbar {
   padding: 15px 10px;
   background: #fff;
