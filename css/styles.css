@@ -11758,7 +11758,7 @@ body {
   font-family: 'Poppins', sans-serif;
   background: #fafafa;
 }
-
+/*
 a,
 a:hover,
 a:focus {
@@ -11766,7 +11766,7 @@ a:focus {
   text-decoration: none;
   transition: all 0.3s;
 }
-
+*/
 .navbar {
   padding: 15px 10px;
   background: #fff;
