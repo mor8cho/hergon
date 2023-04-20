@@ -11765,14 +11765,6 @@ body {
   transition: all 0.3s;
 }
 
-a,
-a:hover,
-a:focus {
-  color: #fff;
-  text-decoration: none;
-  transition: all 0.3s;
-}
-
 .navbar {
   padding: 15px 10px;
   background: #fff;
