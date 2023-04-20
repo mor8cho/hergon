@@ -11759,6 +11759,11 @@ body {
   background: #fafafa;
 }
 
+asb {
+  color: #000000;
+  text-decoration: none;
+  transition: all 0.3s;
+}
 a,
 a:hover,
 a:focus {
