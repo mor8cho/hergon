@@ -15,6 +15,7 @@
         <meta name="description" content="⭐️ Somos una empresa 100% ✅ Guanacasteca, estamos comprometidos con el crecimiento, brindando un excelente soporte, Mantenimiento y reparación de computadoras. 📲 Llamanos para reparar tu computadora " />
         <meta name="keywords" content="Computer, computadoras, reparacion, repair, support, soporte, Guanacaste, Costa Rica, redes" />
         <meta name="author" content="" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Hergontech - Pagina de bienvenida</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
@@ -24,41 +25,90 @@
         <!--Whatsapp popup icon-->
         <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-        <link rel="stylesheet" href="modal/mstyle.css">
+        <link href="../hergon/css/styles.css" rel="stylesheet" />
+        <!-- Bootstrap CSS CDN -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <!-- Our Custom CSS -->
+        <link rel="stylesheet" href="../hergon/css/style3.css">
+        <!-- Scrollbar Custom CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
     </head>
     <body class="d-flex flex-column h-100">
         <main class="flex-shrink-0">
             <!-- Navigation-->
-            <nav class="navbar py-4 navbar-expand-lg navbar-dark bg-dark">
-                <div class="container px-4">
+            <nav class="navbar py-4 navbar-expand-lg navbar-dark bg-dark mx-auto">
+                <div class="container-fluid">
+                    <div>
+                    <!-- Menu button-->
+                    <button type="button" id="sidebarCollapse" class="btn-lg btn-light">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
                     <a href="../index"><img src="assets/hergon_logo.png" alt="logo-hergontech"></a>
                     <a class="navbar-brand" href="../index">Never stops</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-bold">
-                            <!-- <li class="nav-item"><a class="nav-link" href="about.html">Acerca de</a></li> -->
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Servicios</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="../site/services">Información</a></li>
-                                    <div class="dropdown-divider"></div>
-                                    <li><a class="dropdown-item disabled" href="#">Mantenimiento</a></li>
-                                    <div class="dropdown-divider"></div>
-                                    <li><a class="dropdown-item disabled" href="#">Soporte Remoto</a></li>
-                                    <div class="dropdown-divider"></div>
-                                    <li><a class="dropdown-item disabled" href="#">Licencias</a></li>
-                                    <div class="dropdown-divider"></div>
-                                    <li><a class="dropdown-item disabled" href="#">Ayuda</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item"><a class="nav-link" href="../site/blog/blog-home">Blog</a></li>
-                            <li class="nav-item"><a class="nav-link" href="../site/contact">Contacto</a></li>
-                            <li class="nav-item"><a class="nav-link" href="../site/faq">FAQ</a></li>
-                        </ul>
                     </div>
+                    <div class="wrapper">
+                        <!-- Sidebar  -->
+                        <nav id="sidebar">
+                            <div id="dismiss">
+                                <i class="fas fa-arrow-left"></i>
+                            </div>
+                
+                            <div class="sidebar-header">
+                                <h3>Menu</h3>
+                            </div>
+                
+                            <ul class="list-unstyled components">
+                                <p>Dummy Heading</p>
+                                <li class="active">
+                                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Home</a>
+                                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                                        <li>
+                                            <a href="#">Home 1</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Home 2</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Home 3</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="/index">Inicio</a>
+                                    <a href="/site/about">Acerca de</a>
+                                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Pages</a>
+                                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                                        <li>
+                                            <a href="#">Page 1</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Page 2</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Page 3</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Portfolio</a>
+                                </li>
+                                <li>
+                                    <a href="/site/contact">Contacto</a>
+                                </li>
+                            </ul>
+                
+                            <ul class="list-unstyled CTAs">
+                                <a href="facebook.com/hergontech" target="_blank" aria-label="FACEBOOK" class="bi bi-facebook"></a>
+                                <i class="bi bi-whatsapp" style="font-size: 2em;"></i>
+                            </ul>
+                        </nav>
                 </div>
             </nav>
+
             <!-- Header-->
             <header class="bg-image align-center py-5" style="background-image: url('https://raw.githubusercontent.com/mor8cho/hergon/main/img/bg_image.webp');height: auto;width: auto; background-position: top, center;">
                 <div class="container px-5">
@@ -69,11 +119,7 @@
                                 <h1 class="display-5 fw-bolder text-white mb-2">Soporte tecnico a medida</h1>
                                 <h2 class="lead fw-normal text-white mb-4">Mantenimiento preventivo y correctivo de PC y Portátiles, redes LAN e Inalámbricas en Costa Rica</h2>
                                 </shdow>
-                                <!-- <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                                    <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Empezemos</a>
-                                    <a class="btn btn-light btn-lg px-4" href=services>Servicios</a>
-                                    
-                                </div> -->
+
                                 <p> </p>
                                 <div class="btn text-center" role="group" aria-label="Basic example">
                                     <button onclick=" window.open('https://api.whatsapp.com/send?phone=50671469602','_blank')" type="button" class="btn btn-success text-white"><i class="bi bi-whatsapp" aria-hidden="true"></i> WHATSAPP</button>
@@ -240,6 +286,37 @@
     <!-- chatsale.io widget -->
     <script type="text/javascript">!function(){var e={"buttons":[{"type":"instagram","token":"hergontech"},{"type":"whatsapp","token":"50671469602"},{"type":"messenger","token":"https://www.facebook.com/Hergontech/"}],"color":"#59B5F0","position":"right","bottomSpacing":"-15","callToActionMessage":"Hablemos","displayOn":"everywhere","lang":"en"},t=document.location.protocol+"//chatsale.io",o=document.createElement("script");o.type="text/javascript",o.async=!0,o.src=t+"/widget-folder/widget-page.js",o.onload=function(){new BhWidgetPage.init(e)};var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(o,n)}();</script>
     <!-- /Chatsale.io widget -->
+
+    <div class="overlay"></div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+            $('#dismiss, .overlay').on('click', function () {
+                $('#sidebar').removeClass('active');
+                $('.overlay').removeClass('active');
+            });
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').addClass('active');
+                $('.overlay').addClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    </script>
 
 </body>
 
