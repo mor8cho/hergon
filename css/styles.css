@@ -11923,10 +11923,10 @@ a.article:hover {
     Svg border round
 ----------------------------------------------------- */
 .svg-border-rounded svg {
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 0;
-  height: 0rem;
+  height: 1rem;
   width: 100%;
 }
 @media (min-width: 576px) {
