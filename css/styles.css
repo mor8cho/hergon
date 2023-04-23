@@ -11920,5 +11920,32 @@ a.article:hover {
 }
 
 /* ---------------------------------------------------
-    CONTENT STYLE
+    Svg border round
 ----------------------------------------------------- */
+.svg-border-rounded svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1rem;
+  width: 100%;
+}
+@media (min-width: 576px) {
+  .svg-border-rounded svg {
+    height: 1.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .svg-border-rounded svg {
+    height: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .svg-border-rounded svg {
+    height: 2.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .svg-border-rounded svg {
+    height: 3rem;
+  }
+}
