@@ -44,7 +44,7 @@
                     <button type="button" id="sidebarCollapse" class="btn-lg btn-light">
                         <i class="fas fa-align-justify"></i>
                     </button>
-                    <a href="../index"><img src="assets/hergon_logo.png" alt="logo-hergontech"></a>
+                    <a href="../index"><img src="/assets/hergon_logo.png" alt="logo-hergontech"></a>
                     <!-- <a class="navbar-brand" href="../index">Never stops</a> -->
                 </div>
 
@@ -137,36 +137,102 @@
                                     <p><h5>Al utilizar nuestro sitio web, usted acepta estos términos y condiciones. Si tiene alguna pregunta o inquietud, no dude en ponerse en contacto con nosotros.</h5></p>
                                 </section>
                             </article>
-        <!-- Footer-->
-        <footer class="bg-dark py-4 mt-auto">
-            <div class="container px-5">
-                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Your Website 2022</div></div>
-                    <div class="col-auto">
-                        <a class="link-light small" href="#!">Privacy</a>
-                        <span class="text-white mx-1">&middot;</span>
-                        <a class="link-light small" href="#!">Terms</a>
-                        <span class="text-white mx-1">&middot;</span>
-                        <a class="link-light small" href="#!">Contact</a>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="../js/scripts.js"></script>
 
-        <div class="overlay"></div>
-
-        <!-- jQuery CDN - Slim version (=without AJAX) -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <!-- Popper.JS -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-        <!-- Bootstrap JS -->
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-        <!-- jQuery Custom Scroller CDN -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
-
+                            <script>
+                                function sendEmail() {
+                                window.location = "mailto:contacto@hergontech.com?subject=Suscripcion&body=Quiero suscribirme a sus boletines";
+                                }
+                            </script>
+                            <!-- Blog preview section-->
+                            <section class="py-1 bg-dark">
+                                <div class="container px-5 my-5">
+                                    <div class="row gx-5 justify-content-center">
+                                    <!-- Call to action-->
+                                    <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
+                                        <div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
+                                            <div class="mb-4 mb-xl-0">
+                                                <shdow>
+                                                <div class="fs-3 fw-bold text-white">Nuevos servicios pensados para ti</div>
+                                                </shdow>
+                                                <div class="text-white">Recibe acceso de primera fuente a nuestras mejores publicaciones directamente en tu bandeja de entrada.</div>
+                                            </div>
+                                            <div class="ms-xl-4">
+                                                <div class="input-group mb-2">
+                                                    <input class="form-control" type="text" placeholder="Email address..." aria-label="Email address..." aria-describedby="button-newsletter" />
+                                                    <button class="btn btn-outline-light" id="button-newsletter" type="button" onclick="sendEmail()">Sign up</button>
+                                                </div>
+                                                
+                                                <div class="small text-white">Nos preocupamos por tu privacidad, nunca compartiremos tus datos.</div>
+                                                
+                                            </div>
+                                        </div>
+                                    </aside>
+                                </div>
+                            </section>
+                        </main>
+                        <!-- Footer-->
+                        <footer class="bg-dark py-4 mt-auto">
+                            <div class="container px-5">
+                                <div class="row align-items-center flex-column flex-sm-row">
+                                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Hergontech Costa Rica 2022</div></div>
+                                    <div class="col-auto"><div class="small m-0 text-white">Horario L - V/ 10AM - 5PM, S/ 10AM - 5PM</div></div>
+                                    <div class="col-auto">
+                                        <a class="link-light small" href="#!">Privacy</a>
+                                        <span class="text-white mx-1">&middot;</span>
+                                        <a class="link-light small" href="#!">Terms</a>
+                                        <span class="text-white mx-1">&middot;</span>
+                                        <a class="link-light small" href="contact.html">Contact</a>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="text-white fw-bolder">Siguenos en</div>
+                                        <!-- <a class="fs-5 px-2 link-dark" href="#!"><i class="bi-twitter"></i></a> -->
+                                        <a class="link-light" href="https://www.facebook.com/Hergontech" target="_blank"><i class="bi-facebook"></i></a>
+                                        <a class="link-light" href="#!"><i class="bi-linkedin"></i></a>
+                                        <a class="link-light" href="https://www.instagram.com/hergontech/?hl=es" target="_blank"><i class="bi bi-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </footer>
+                        <!-- Bootstrap core JS-->
+                        <script src="/bootstrap/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+                        <!-- Core theme JS-->
+                        <script src="js/scripts.js"></script>
+                        <!-- Start of HubSpot Embed Code
+                    <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/24370122.js"></script>
+                    End of HubSpot Embed Code -->
+                    <!-- chatsale.io widget -->
+                    <script type="text/javascript">!function(){var e={"buttons":[{"type":"instagram","token":"hergontech"},{"type":"whatsapp","token":"50671469602"},{"type":"messenger","token":"https://www.facebook.com/Hergontech/"}],"color":"#59B5F0","position":"right","bottomSpacing":"-15","callToActionMessage":"Hablemos","displayOn":"everywhere","lang":"en"},t=document.location.protocol+"//chatsale.io",o=document.createElement("script");o.type="text/javascript",o.async=!0,o.src=t+"/widget-folder/widget-page.js",o.onload=function(){new BhWidgetPage.init(e)};var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(o,n)}();</script>
+                    <!-- /Chatsale.io widget -->
+                
+                    <div class="overlay"></div>
+                
+                    <!-- jQuery CDN - Slim version (=without AJAX) -->
+                    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                    <!-- Popper.JS -->
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+                    <!-- Bootstrap JS -->
+                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+                    <!-- jQuery Custom Scroller CDN -->
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+                
+                    <script type="text/javascript">
+                        $(document).ready(function () {
+                            $("#sidebar").mCustomScrollbar({
+                                theme: "minimal"
+                            });
+                
+                            $('#dismiss, .overlay').on('click', function () {
+                                $('#sidebar').removeClass('active');
+                                $('.overlay').removeClass('active');
+                            });
+                
+                            $('#sidebarCollapse').on('click', function () {
+                                $('#sidebar').addClass('active');
+                                $('.overlay').addClass('active');
+                                $('.collapse.in').toggleClass('in');
+                                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+                            });
+                        });
+                    </script>
     </body>
 </html>
