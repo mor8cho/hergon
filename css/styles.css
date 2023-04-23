@@ -4034,13 +4034,13 @@ textarea.form-control-lg {
 }
 
 .navbar {
-  position: relative;
+  position: absolute;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0px;
+  padding-bottom: 0px;
   margin-bottom: 0px;
 }
 .navbar > .container,
