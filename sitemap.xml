@@ -18,11 +18,6 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://hergontech.com/contact.html</loc>
-  <lastmod>2022-06-12T04:28:12+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://hergontech.com/pricing.html</loc>
   <lastmod>2022-06-12T04:28:12+00:00</lastmod>
   <priority>0.80</priority>
@@ -32,6 +27,29 @@
   <lastmod>2022-06-12T04:28:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
-
+<url>
+  <loc>https://hergontech.com/site/blog/blog-home.html</loc>
+  <lastmod>2023-04-25T10:06:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hergontech.com/site/contact</loc>
+  <lastmod>2023-04-25T10:06:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+<loc>https://hergontech.com/site/blog/47d4b98bed4d4dabb6ea5ab0d5927ebc.html</loc>
+<lastmod>2023-04-25T10:06:49+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hergontech.com/site/blog/1cecdf6b02b541ff9e45fec904209946.html</loc>
+  <lastmod>2023-04-25T10:06:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hergontech.com/site/blog/66c4d77fdb6b463e8c16b93907d9bb00.html</loc>
+  <lastmod>2023-04-25T10:06:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
 </urlset>
