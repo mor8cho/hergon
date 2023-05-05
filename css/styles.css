@@ -11803,7 +11803,7 @@ body {
   width: 250px;
   position: fixed;
   top: 0;
-  left: -250px;
+  right: -250px;
   height: 100vh;
   z-index: 999;
   background: #3f61e7;
@@ -11814,7 +11814,7 @@ body {
 }
 
 #sidebar.active {
-  left: 0;
+  right: 0;
 }
 
 #dismiss {
