@@ -11827,6 +11827,7 @@ body {
   top: 10px;
   left: 10px;
   cursor: pointer;
+  border-radius: 5px;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
