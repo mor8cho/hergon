@@ -1,10 +1,7 @@
-User-agent: *
+User-agent: Googlebot
 Disallow: /nogooglebot/
-Disallow: /portfolio-item.html
-Disallow: /portfolio-overview.html
-Disallow: /blog-home.html
-Disallow: /blog-post.html
-Disallow: /about.html
-Disallow: /faq.html
+
+User-agent: *
+Allow: /
 
 Sitemap: http://www.hergontech.com/sitemap.xml
